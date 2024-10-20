@@ -1,0 +1,95 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1807826533" file="C:\Users\jpmcg\OneDrive\Documents\MATLAB\Shared\Senior Design Code\Final Product\Commented\HydroSim.prj" location="C:\Users\jpmcg\OneDrive\Documents\MATLAB\Shared\Senior Design Code\Final Product\Commented" name="HydroSim" target="target.mlapps" target-name="Package App">
+    <param.appname>HydroSim</param.appname>
+    <param.authnamewatermark>J. McGuckin, S. Huang, A. Tieu, J. Wagner</param.authnamewatermark>
+    <param.email>jpmcgu2@gmail.com</param.email>
+    <param.company>Drexel University</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot>C:\Users\jpmcg\AppData\Local\Temp\tpb28f13e2_277d_4fb8_b0a1_a5a08e9c81b5.png</param.screenshot>
+    <param.version>2.5</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>C:\Users\jpmcg\OneDrive\Documents\MATLAB\Shared\Senior Design Code\Final Product\Install Me</param.output>
+    <param.guid>6f1a831e-55f1-49a9-bbc5-cceb496ae498</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Geometry_GUI.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\1D_Cylinder_Graphics.JPG</file>
+      <file>${PROJECT_ROOT}\1D_Slab_Graphic.JPG</file>
+      <file>${PROJECT_ROOT}\1D_Sphere_Graphic.JPG</file>
+      <file>${PROJECT_ROOT}\2D_Cylinder_Graphic.JPG</file>
+      <file>${PROJECT_ROOT}\3D_Prism_Graphic.JPG</file>
+      <file>${PROJECT_ROOT}\Animation_Properties.mlapp</file>
+      <file>${PROJECT_ROOT}\AnimationFig.fig</file>
+      <file>${PROJECT_ROOT}\Cylinder_1D.mlapp</file>
+      <file>${PROJECT_ROOT}\Cylinder_2D.mlapp</file>
+      <file>${PROJECT_ROOT}\domain_1D_Cyl.m</file>
+      <file>${PROJECT_ROOT}\domain_1D_Slab.m</file>
+      <file>${PROJECT_ROOT}\domain_1D_Sph.m</file>
+      <file>${PROJECT_ROOT}\domain_2D_Cylinder.m</file>
+      <file>${PROJECT_ROOT}\domain_3D_Prism.m</file>
+      <file>${PROJECT_ROOT}\Geometry_GUI.mlapp</file>
+      <file>${PROJECT_ROOT}\MoL_Script_1D_Cyl.m</file>
+      <file>${PROJECT_ROOT}\MoL_Script_1D_Slab.m</file>
+      <file>${PROJECT_ROOT}\MoL_Script_1D_Sph.m</file>
+      <file>${PROJECT_ROOT}\MoL_Script_2D_Cyl.m</file>
+      <file>${PROJECT_ROOT}\MoL_Script_3D_Prism.m</file>
+      <file>${PROJECT_ROOT}\Prism_3D.mlapp</file>
+      <file>${PROJECT_ROOT}\profile_1D_Cyl.m</file>
+      <file>${PROJECT_ROOT}\profile_1D_Slab.m</file>
+      <file>${PROJECT_ROOT}\profile_1D_Sph.m</file>
+      <file>${PROJECT_ROOT}\profile_2D_Cylinder.m</file>
+      <file>${PROJECT_ROOT}\profile_3D_Prism.m</file>
+      <file>${PROJECT_ROOT}\Slab_1D.mlapp</file>
+      <file>${PROJECT_ROOT}\Sphere_1D.mlapp</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\jpmcg\OneDrive\Documents\MATLAB\Shared\Senior Design Code\Final Product" name="Install Me" optional="false">C:\Users\jpmcg\OneDrive\Documents\MATLAB\Shared\Senior Design Code\Final Product\Install Me</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2020a</root>
+      <toolboxes>
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
